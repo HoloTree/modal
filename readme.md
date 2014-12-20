@@ -3,7 +3,8 @@ Output a modal, with content hooked to wp_footer, using Foundation or Simple Mod
 Usage:
 
 ```php
-    new \holotree\modal\foundation( 
+    new \holotree\modal\foundation( 'trigger-id', 'content-id', '<p>I am Josh's raging modal content</p>', 'large' );
+```
     
 ### License, Copyright etc.
 Copyright 2014 [Josh Pollock](http://JoshPress.net).
